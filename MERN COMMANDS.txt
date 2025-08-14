@@ -1,0 +1,14 @@
+# create
+npm create vite@latest my-react-app -- --template react
+cd my-react-app
+
+# install deps
+npm install
+
+# dev server
+npm run dev
+
+npm create vite@latest my-react-tsapp -- --template react-ts
+cd my-react-tsapp
+npm install
+npm run dev
