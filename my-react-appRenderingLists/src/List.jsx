@@ -1,8 +1,12 @@
 function List(){
 
-    const fruit = ["apple","orange","banana","coconut","pineapple"];
+    const fruits = ["apple","orange","banana","coconut","pineapple"];
 
-    return(fruit);
+    const listItems = fruits.map(fruit => <li>{fruit}</li>);
+
+    return(<ol>{listItems}</ol>);
+
+    //return(fruits);
 
 }
 
