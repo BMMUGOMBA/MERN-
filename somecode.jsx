@@ -422,7 +422,7 @@ export const repo = {
       ...updated[idx],
       status: "ISSUED",
       issuedAt: now,
-      issuedBranchId: issuedBranchId ??
+      issuedBranchId: issuedBranchId ?? null,
       issuedToClientName: name,
       issuedPolicyNumber: policy,
       issuedByUserId: issuedByUserId ?? null,
@@ -1393,3 +1393,4 @@ export const repo = {
 
 
 };
+
